@@ -10,7 +10,7 @@ flatpak install org.freedesktop.Sdk.Locale/x86_64/21.08
 flatpak install org.freedesktop.Sdk.Extension.toolchain-i386/21.08
 
 flatpak update --subpath= org.freedesktop.Sdk.Locale/x86_64/21.08
-
+flatpak update --subpath=  org.freedesktop.Platform.Locale/x86_64/21.08
 
 flatpak-builder build-dir org.winehq.Sdk.yaml .
 
